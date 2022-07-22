@@ -1,0 +1,694 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&family=Roboto+Slab:wght@300;500&display=swap");
+/* Normalize */
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* Colors */
+/* Spacings */
+/* Font-family */
+/* Font-Sizes */
+html {
+  font-size: 62.5%; }
+
+/* barra de navegacion + logo*/
+.backgruond__stily {
+  background-color: #464646; }
+
+.logo__img {
+  padding-left: 40px; }
+
+.nav__tittle ul li a {
+  margin: 11px;
+  color: #ffffff; }
+
+.nav__hover {
+  align-items: flex-end; }
+
+.nav-item {
+  font-size: 1.6em; }
+
+/* barra de navegacion + logo*/
+/* banner */
+.banner {
+  width: 100%;
+  height: 22rem;
+  background-image: url(../Imagenes/banneriniciomobil.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.banner2 {
+  width: 100%;
+  height: 22rem;
+  background-image: url(../Imagenes/walletmobilfondo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.banner3 {
+  width: 100%;
+  height: 22rem;
+  background-image: url(../Imagenes/fondonosotrosmobil.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.banner4 {
+  width: 100%;
+  height: 22rem;
+  background-image: url(../Imagenes/informacionmobil.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.banner5 {
+  width: 100%;
+  height: 20rem;
+  background-color: #03616D;
+  text-align: center; }
+  .banner5__titulo {
+    font-family: "Roboto Slab", serif;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 2.2em; }
+  .banner5__texto {
+    text-align: center;
+    padding-inline: 2.4rem;
+    margin-top: 1rem;
+    font-size: 1.6em;
+    font-family: "Barlow", sans-serif;
+    color: #ffffff; }
+  .banner5__button {
+    width: 60%;
+    height: 3rem;
+    border-radius: 13px;
+    font-size: 1.4em;
+    font-family: "Roboto Slab", serif;
+    background-color: #000;
+    color: #ffffff;
+    margin-top: 1rem; }
+  .banner5__li {
+    list-style-type: none; }
+
+/* MAIN */
+.informacion__titulo {
+  font-family: "Roboto Slab", serif;
+  color: #464646;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 2.2em; }
+
+.informacion__texto {
+  text-align: justify;
+  padding-inline: 2.4rem;
+  margin-top: 2rem;
+  font-size: 1.6em;
+  font-family: "Barlow", sans-serif; }
+
+.informacion__boton {
+  text-align: center;
+  margin-top: 2rem; }
+
+.informacion__titulo1 {
+  font-family: "Roboto Slab", serif;
+  color: #464646;
+  text-align: center;
+  font-size: 2.2em;
+  padding-top: 2rem; }
+
+.informacion__titulo1b {
+  font-family: "Roboto Slab", serif;
+  color: #464646;
+  text-align: left;
+  margin-top: 2rem;
+  font-size: 2.2em;
+  padding-inline: 2.4rem; }
+
+.informacion__titulo1c {
+  font-family: "Roboto Slab", serif;
+  color: #464646;
+  text-align: left;
+  padding: 2rem;
+  font-size: 2.2em;
+  padding-inline: 2.4rem; }
+
+.boton {
+  background-color: #03616D;
+  color: #ffffff;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 25px;
+  font-size: 1.6em;
+  margin-bottom: 2rem; }
+
+.informacion2 {
+  background-color: #292929;
+  padding-top: 2rem; }
+  .informacion2__titulo2 {
+    font-family: "Roboto Slab", serif;
+    color: #464646;
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 2rem; }
+  .informacion2__texto2 {
+    text-align: justify;
+    padding-inline: 2.4rem;
+    font-size: 1.6em;
+    font-family: "Barlow", sans-serif;
+    color: #ffffff;
+    margin-bottom: 2.4rem; }
+
+.informacion3 {
+  background-color: #ffffff;
+  padding-bottom: 2rem;
+  text-align: center; }
+
+.informacion4 {
+  background-color: #292929;
+  padding-bottom: 2rem;
+  text-align: center; }
+
+.informacion5 {
+  background-color: #E2E2E2;
+  text-align: center;
+  padding-top: 1rem; }
+
+.informacion6 {
+  background-color: #292929;
+  padding-bottom: 2rem;
+  text-align: center;
+  padding-inline: 2rem; }
+
+.informacion7 {
+  background-color: #ffffff;
+  padding-bottom: 2rem;
+  text-align: center;
+  padding-top: 2rem;
+  padding-inline: 2rem; }
+
+.imageneschicas {
+  text-align: center; }
+
+.informacion__subtitulo {
+  font-family: "Roboto Slab", serif;
+  color: #464646;
+  text-align: start;
+  font-size: 1.4em;
+  margin-top: 2rem;
+  padding-left: 2rem; }
+
+.informacion__boton2 {
+  text-align: center; }
+
+.principalescripto {
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 6;
+  margin-top: 2rem;
+  justify-content: space-around; }
+  .principalescripto__bitcoin {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2; }
+  .principalescripto__ethereum {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2; }
+  .principalescripto__usdt {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4; }
+  .principalescripto__bnb {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4; }
+  .principalescripto__polkadot {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5; }
+  .principalescripto__cardano {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5; }
+  .principalescripto__texto {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.4em;
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 3rem; }
+
+.beneficiospremium {
+  display: grid;
+  background-color: #292929;
+  grid-template-columns: 3;
+  grid-template-rows: 4;
+  justify-content: space-around;
+  padding-top: 2.4rem; }
+  .beneficiospremium__item1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2; }
+  .beneficiospremium__item2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2; }
+  .beneficiospremium__item3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2; }
+  .beneficiospremium__item4 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3; }
+  .beneficiospremium__item5 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3; }
+  .beneficiospremium__item6 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3; }
+  .beneficiospremium__texto {
+    width: 80px;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.4em;
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 2rem;
+    color: #ffffff; }
+
+.imagenes {
+  width: 80%; }
+
+.imagenes2 {
+  width: 100%; }
+
+.contenedorimagen {
+  text-align: center;
+  margin-top: 3.5rem; }
+
+.contenedortexto {
+  padding-left: 2.4rem;
+  padding-right: 2.4rem; }
+
+.negrita {
+  font-size: 1em;
+  font-family: "Roboto Slab", serif; }
+
+.negrita2 {
+  font-size: 1em;
+  font-family: "Roboto Slab", serif; }
+
+.imageneschicas {
+  padding-top: 2rem; }
+  .imageneschicas__li {
+    display: inline-block;
+    padding: 0.5rem; }
+  .imageneschicas__li2 {
+    display: inline-block;
+    padding-inline: 1.5rem; }
+
+.miniimg2 {
+  margin-bottom: 2.4rem;
+  width: 80px;
+  height: 80px;
+  margin-top: 1rem; }
+
+.miniimg {
+  width: 80px;
+  height: 80px;
+  margin-top: 1rem; }
+
+.miniimg3 {
+  width: 80px;
+  height: 80px; }
+
+.flexpremium {
+  display: flex;
+  flex-direction: column; }
+
+.contpremium {
+  margin-left: 15%;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  background-color: #ffffff;
+  width: 70%; }
+
+.contpremium2 {
+  margin-left: 15%;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  background-color: #ffffff;
+  width: 70%;
+  margin-bottom: 2rem; }
+
+.premiumbox {
+  text-align: start;
+  padding-left: 2rem;
+  padding-right: 2rem; }
+  .premiumbox__anuncio {
+    width: 80%;
+    border-radius: 30px;
+    background-color: #03616D;
+    font-size: 1.4em;
+    font-family: "Barlow", sans-serif;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center; }
+  .premiumbox__titulo {
+    font-size: 1.4em;
+    font-family: "Roboto Slab", serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+  .premiumbox__texto {
+    font-size: 1.4em;
+    font-family: "Barlow", sans-serif;
+    text-align: justify;
+    margin-bottom: 1rem; }
+  .premiumbox__ul {
+    margin-top: 1rem;
+    margin-bottom: 2rem; }
+  .premiumbox__li {
+    font-size: 1.4em;
+    font-family: "Barlow", sans-serif;
+    text-align: justify;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+  .premiumbox__button {
+    width: 60%;
+    height: 3rem;
+    border-radius: 13px;
+    font-size: 1.4em;
+    font-family: "Roboto Slab", serif;
+    background-color: #000;
+    color: #ffffff;
+    margin-left: 20%;
+    margin-bottom: 2rem; }
+
+.formulariopremium__button {
+  width: 30%;
+  height: 3rem;
+  border-radius: 13px;
+  font-size: 1.4em;
+  font-family: "Roboto Slab", serif;
+  background-color: #03616D;
+  color: #ffffff;
+  margin-top: 2rem;
+  margin-left: 1rem; }
+
+.label {
+  font-size: 1.4em;
+  font-family: "Barlow", sans-serif;
+  margin-bottom: 2rem;
+  color: #ffffff; }
+
+/* FOOTER */
+.footer {
+  background-color: #464646;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+  .footer__titulo {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+    font-family: "Roboto Slab", serif;
+    color: #ffffff; }
+  .footer__redes {
+    display: flex;
+    justify-content: center; }
+  .footer__li {
+    display: inline-block;
+    padding: 1rem;
+    font-size: 1.4em; }
+  .footer__button {
+    font-size: small;
+    color: #6A6A6A; }
+  .footer__text {
+    font-family: "Barlow", sans-serif;
+    font-size: 1.4em;
+    color: #ffffff;
+    margin: 1rem; }
+
+/* Media */
+@media (min-width: 768px) {
+  .banner {
+    height: 30rem; }
+  .banner2 {
+    height: 30rem; }
+  .banner3 {
+    height: 30rem; }
+  .banner4 {
+    height: 30rem; }
+  .banner5 {
+    height: 27rem; }
+    .banner5__titulo {
+      font-size: 3.5em;
+      padding-top: 2rem; }
+    .banner5__texto {
+      font-size: 1.6em;
+      text-align: center;
+      margin-bottom: 2rem;
+      margin-top: 2rem; }
+    .banner5__button {
+      font-size: 2.2em;
+      margin-top: 2.4rem; }
+  .informacion {
+    padding-inline: 6rem; }
+    .informacion__titulo {
+      font-size: 3.5em; }
+    .informacion__texto {
+      font-size: 2.2em; }
+  .informacion2 {
+    padding-inline: 6rem; }
+    .informacion2__titulo2 {
+      font-size: 3.5em; }
+    .informacion2__texto2 {
+      font-size: 2.2em; }
+  .informacion3 {
+    padding-inline: 6rem; }
+  .informacion4 {
+    padding-inline: 6rem; }
+  .informacion6 {
+    padding-inline: 2.4rem; }
+  .informacion7 {
+    padding-inline: 6rem; }
+  .informacion__titulo1 {
+    font-size: 3.5em; }
+  .informacion__titulo1b {
+    font-size: 3.5em; }
+  .informacion__titulo1c {
+    font-size: 3.5em; }
+  .boton {
+    width: 15rem;
+    height: 4rem; }
+  .imageneschicas {
+    text-align: center; }
+  .informacion__subtitulo {
+    font-size: 2.2em; }
+  .miniimg {
+    width: 110px;
+    height: 110px; }
+  .miniimg2 {
+    width: 110px;
+    height: 110px; }
+  .contpremium {
+    padding-inline: 3rem; }
+  .contpremium2 {
+    padding-inline: 3rem; }
+  .premiumbox__anuncio {
+    font-size: 2.2em;
+    text-align: justify;
+    padding-left: 2rem;
+    width: 65%; }
+  .premiumbox__titulo {
+    font-size: 2.2em;
+    padding-left: 1rem; }
+  .premiumbox__texto {
+    font-size: 2.2em; }
+  .premiumbox__ul {
+    margin-top: 2rem; }
+  .premiumbox__li {
+    font-size: 2.2em; }
+  .formulariopremium__button {
+    font-size: 1.6em; }
+  .beneficiospremium {
+    justify-content: space-evenly; }
+  .footer__titulo {
+    font-size: 3.5em; }
+  .footer__li {
+    display: inline-block; }
+  .footer__button {
+    font-size: 1.7em;
+    color: #6A6A6A; }
+  .footer__text {
+    font-size: 2.2em; }
+  .footer__imput {
+    padding: 0.3rem; }
+  .iconify {
+    width: 80px;
+    height: 80px; } }
+
+@media (min-width: 992px) {
+  .banner {
+    height: 34rem; }
+  .banner2 {
+    height: 34rem; }
+  .banner3 {
+    height: 34rem; }
+  .banner4 {
+    height: 34rem; }
+  .banner5 {
+    height: 30rem; }
+    .banner5__texto {
+      font-size: 2.2em; }
+  .beneficiospremium__texto {
+    font-size: 1.4em; } }
+
+@media (min-width: 1200px) {
+  .banner {
+    height: 42rem; }
+  .banner2 {
+    height: 42rem; }
+  .banner3 {
+    height: 42rem; }
+  .banner4 {
+    height: 42rem; }
+  .banner5 {
+    height: 30rem; }
+  .principalescripto {
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 4;
+    margin-top: 2rem;
+    justify-content: space-around; }
+    .principalescripto__bitcoin {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 2; }
+    .principalescripto__ethereum {
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 2; }
+    .principalescripto__usdt {
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 1;
+      grid-row-end: 2; }
+    .principalescripto__bnb {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 3;
+      grid-row-end: 4; }
+    .principalescripto__polkadot {
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 3;
+      grid-row-end: 4; }
+    .principalescripto__cardano {
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 3;
+      grid-row-end: 4; }
+    .principalescripto__texto {
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 2.2em;
+      font-family: "Roboto Slab", serif;
+      margin-bottom: 3rem; } }
+
+@media (min-width: 1200px) {
+  .informacion {
+    padding-inline: 18rem; }
+  .informacion2 {
+    padding-inline: 18rem; }
+  .informacion3 {
+    padding-inline: 18rem; }
+  .informacion4 {
+    padding-inline: 18rem; }
+  .informacion6 {
+    padding-inline: 18rem; }
+  .informacion7 {
+    padding-inline: 18rem; }
+  .imagenes {
+    width: 50%; }
+  .imagenes2 {
+    width: 70%;
+    border-radius: 11%; } }
+
+@media (min-width: 1400px) {
+  .banner {
+    height: 45rem; }
+  .banner2 {
+    height: 45rem; }
+  .banner3 {
+    height: 45rem; }
+  .banner4 {
+    height: 45rem; }
+  .banner5 {
+    height: 32rem; }
+  .informacion {
+    padding-inline: 25rem; }
+  .informacion2 {
+    padding-inline: 25rem; }
+  .informacion3 {
+    padding-inline: 25rem; }
+  .informacion4 {
+    padding-inline: 25rem; }
+  .informacion6 {
+    padding-inline: 25rem; }
+  .informacion7 {
+    padding-inline: 25rem; }
+  .imagenes {
+    width: 40%; }
+  .imagenes2 {
+    width: 50%;
+    border-radius: 11%; } }
+
+@media (min-width: 1700px) {
+  .banner {
+    height: 55rem; }
+  .banner2 {
+    height: 55rem; }
+  .banner3 {
+    height: 55rem; }
+  .banner4 {
+    height: 55rem; }
+  .banner5 {
+    height: 32rem; } }
+
+@media (min-width: 1920px) {
+  .banner {
+    height: 65rem; }
+  .banner2 {
+    height: 65rem; }
+  .banner3 {
+    height: 65rem; }
+  .banner4 {
+    height: 65rem; }
+  .banner5 {
+    height: 32rem; }
+  .contenedorprincipal {
+    max-width: 1920px;
+    margin-right: auto;
+    margin-left: auto; } }

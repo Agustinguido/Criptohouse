@@ -23,7 +23,9 @@ html {
 }
 
 .logo__img {
-    padding-left: 40px;
+    width: 80px;
+    height: 50px;
+    margin-left: 10px;
 }
 
 
@@ -40,6 +42,7 @@ html {
     font-size: $text-base;
 }
 
+
 /* barra de navegacion + logo*/
 
 /* banner */
@@ -53,30 +56,21 @@ html {
 }
 
 .banner2 {
-    width: 100%;
-    height: 22rem;
+    @extend .banner;
     background-image: url(../Imagenes/walletmobilfondo.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+
 }
 
 .banner3 {
-    width: 100%;
-    height: 22rem;
+    @extend .banner;
     background-image: url(../Imagenes/fondonosotrosmobil.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+
 }
 
 .banner4 {
-    width: 100%;
-    height: 22rem;
+    @extend .banner;
     background-image: url(../Imagenes/informacionmobil.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+
 }
 
 .banner5 {
@@ -119,30 +113,38 @@ html {
     }
 }
 
+/* Titulos */
 
+.titulos {
+    font-family: $font-title;
+    color: $alternative;
+    text-align: center;
+    font-size: $text-medium;
+}
 
+.textos {
+    text-align: justify;
+    padding-inline: $spacing-medium;
+    font-size: $text-base;
+    font-family: $font-principal
+}
 
-
+.botones {
+    text-align: center;
+    margin-top: $spacing-small;
+}
 
 /* MAIN */
 
 .informacion {
     &__titulo {
-        font-family: $font-title;
-        color: $alternative;
-        text-align: center;
+        @extend .titulos;
         margin-top: $spacing-small;
-        font-size: $text-medium;
-
     }
 
     &__texto {
-
-        text-align: justify;
-        padding-inline: $spacing-medium;
+        @extend .textos;
         margin-top: $spacing-small;
-        font-size: $text-base;
-        font-family: $font-principal
     }
 
     &__boton {
@@ -151,30 +153,22 @@ html {
     }
 }
 
-.informacion__titulo1 {
-    font-family: $font-title;
-    color: $alternative;
-    text-align: center;
-    font-size: $text-medium;
-    padding-top: $spacing-small;
-}
-
 .informacion__titulo1b {
-    font-family: $font-title;
-    color: $alternative;
+    @extend .titulos;
+    padding-inline: $spacing-medium;
     text-align: left;
     margin-top: $spacing-small;
-    font-size: $text-medium;
-    padding-inline: $spacing-medium;
 }
 
 .informacion__titulo1c {
-    font-family: $font-title;
-    color: $alternative;
-    text-align: left;
+    @extend .informacion__titulo1b;
     padding: $spacing-small;
-    font-size: $text-medium;
-    padding-inline: $spacing-medium;
+}
+
+.informacion__titulo1d {
+    @extend .titulos;
+    margin-bottom: $spacing-small;
+    margin-top: $spacing-small;
 }
 
 .boton {
@@ -193,19 +187,12 @@ html {
     padding-top: $spacing-small;
 
     &__titulo2 {
-        font-family: $font-title;
-        color: $alternative;
-        text-align: center;
-        font-size: $text-medium;
+        @extend .titulos;
         margin-bottom: $spacing-small;
     }
 
     &__texto2 {
-
-        text-align: justify;
-        padding-inline: $spacing-medium;
-        font-size: $text-base;
-        font-family: $font-principal;
+        @extend .textos;
         color: #ffffff;
         margin-bottom: $spacing-medium;
     }
@@ -219,37 +206,31 @@ html {
 }
 
 .informacion4 {
+    @extend .informacion3;
     background-color: $secondaryback;
-    padding-bottom: $spacing-small;
-    text-align: center;
 }
 
 .informacion5 {
+    @extend .informacion3;
     background-color: #E2E2E2;
-    text-align: center;
     padding-top: $spacing-xsmall;
 }
 
 .informacion6 {
-    background-color: $secondaryback;
-    padding-bottom: $spacing-small;
-    text-align: center;
+    @extend .informacion4;
     padding-inline: $spacing-small;
+    padding-top: $spacing-small;
 
 }
 
 .informacion7 {
-    background-color: $primaryback;
-    padding-bottom: $spacing-small;
-    text-align: center;
-    padding-top: $spacing-small;
+    @extend .informacion3;
     padding-inline: $spacing-small;
 }
 
 .imageneschicas {
     text-align: center;
 }
-
 
 .informacion__subtitulo {
     font-family: $font-title;
@@ -385,8 +366,6 @@ html {
     }
 }
 
-
-
 .imagenes {
     width: 80%;
 }
@@ -410,12 +389,6 @@ html {
 .negrita {
     font-size: $text-xsmall;
     font-family: $font-title;
-
-}
-
-.negrita2 {
-    font-size: $text-xsmall;
-    font-family: $font-title;
 }
 
 .imageneschicas {
@@ -433,17 +406,15 @@ html {
     }
 }
 
-.miniimg2 {
-    margin-bottom: $spacing-medium;
-    width: 80px;
-    height: 80px;
+.miniimg {
+    @extend .miniimg3;
     margin-top: $spacing-xsmall;
+
 }
 
-.miniimg {
-    width: 80px;
-    height: 80px;
-    margin-top: $spacing-xsmall;
+.miniimg2 {
+    @extend .miniimg;
+    margin-bottom: $spacing-medium;
 
 }
 
@@ -466,11 +437,7 @@ html {
 }
 
 .contpremium2 {
-    margin-left: 15%;
-    margin-top: $spacing-small;
-    padding-top: $spacing-small;
-    background-color: $primaryback;
-    width: 70%;
+@extend .contpremium;
     margin-bottom: $spacing-small;
 }
 
@@ -1082,4 +1049,3 @@ html {
     }
 
 }
-

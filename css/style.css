@@ -472,7 +472,7 @@ html {
     font-size: 2.2em;
     text-align: justify;
     padding-left: 2rem;
-    width: 65%; }
+    width: 70%; }
   .premiumbox__titulo {
     font-size: 2.2em;
     padding-left: 1rem; }
@@ -569,9 +569,7 @@ html {
       margin-top: 2rem;
       font-size: 2.2em;
       font-family: "Roboto Slab", serif;
-      margin-bottom: 3rem; } }
-
-@media (min-width: 1200px) {
+      margin-bottom: 3rem; }
   .informacion {
     padding-inline: 18rem; }
   .informacion2 {
@@ -621,25 +619,25 @@ html {
 
 @media (min-width: 1700px) {
   .banner, .banner2, .banner3, .banner4 {
-    height: 55rem; }
+    height: 65rem; }
   .banner2 {
-    height: 55rem; }
+    height: 65rem; }
   .banner3 {
-    height: 55rem; }
+    height: 65rem; }
   .banner4 {
-    height: 55rem; }
+    height: 65rem; }
   .banner5 {
     height: 32rem; } }
 
 @media (min-width: 1920px) {
   .banner, .banner2, .banner3, .banner4 {
-    height: 65rem; }
+    height: 75rem; }
   .banner2 {
-    height: 65rem; }
+    height: 75rem; }
   .banner3 {
-    height: 65rem; }
+    height: 75rem; }
   .banner4 {
-    height: 65rem; }
+    height: 75rem; }
   .banner5 {
     height: 32rem; }
   .contenedorprincipal {

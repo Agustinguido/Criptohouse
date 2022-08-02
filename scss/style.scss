@@ -437,7 +437,7 @@ html {
 }
 
 .contpremium2 {
-@extend .contpremium;
+    @extend .contpremium;
     margin-bottom: $spacing-small;
 }
 
@@ -703,7 +703,7 @@ html {
             font-size: $text-medium;
             text-align: justify;
             padding-left: $spacing-small;
-            width: 65%;
+            width: 70%;
         }
 
         &__titulo {
@@ -889,9 +889,6 @@ html {
 
     }
 
-}
-
-@media (min-width: 1200px) {
     .informacion {
         padding-inline: 18rem;
     }
@@ -990,22 +987,22 @@ html {
 
 @media (min-width: 1700px) {
     .banner {
-        height: 55rem;
+        height: 65rem;
     }
 
     .banner2 {
-        height: 55rem;
+        height: 65rem;
     }
 
     .banner3 {
 
-        height: 55rem;
+        height: 65rem;
 
     }
 
     .banner4 {
 
-        height: 55rem;
+        height: 65rem;
 
     }
 
@@ -1018,22 +1015,22 @@ html {
 
 @media (min-width: 1920px) {
     .banner {
-        height: 65rem;
+        height: 75rem;
     }
 
     .banner2 {
-        height: 65rem;
+        height: 75rem;
     }
 
     .banner3 {
 
-        height: 65rem;
+        height: 75rem;
 
     }
 
     .banner4 {
 
-        height: 65rem;
+        height: 75rem;
     }
 
     .banner5 {

@@ -1,0 +1,119 @@
+.principalescripto {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 6;
+    margin-top: $spacing-small;
+    justify-content: space-around;
+
+    &__bitcoin {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    &__ethereum {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    &__usdt {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    &__bnb {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    &__polkadot {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+    &__cardano {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+    &__texto {
+        text-align: center;
+        margin-top: $spacing-small;
+        font-size: $text-small;
+        font-family: $font-title;
+        margin-bottom: 3rem;
+    }
+}
+
+.beneficiospremium {
+    display: grid;
+    background-color: $secondaryback;
+    grid-template-columns: 3;
+    grid-template-rows: 4;
+    justify-content: space-around;
+    padding-top: $spacing-medium;
+
+    &__item1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    &__item2 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    &__item3 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    &__item4 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    &__item5 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    &__item6 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    &__texto {
+        width: 80px;
+        text-align: center;
+        margin-top: $spacing-small;
+        font-size: $text-small;
+        font-family: $font-title;
+        margin-bottom: $spacing-small;
+        color: #ffffff;
+
+    }
+}

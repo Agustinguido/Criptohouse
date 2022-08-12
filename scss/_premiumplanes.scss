@@ -1,0 +1,75 @@
+.flexpremium {
+    display: flex;
+    flex-direction: column;
+}
+
+.contpremium {
+    margin-left: 15%;
+    margin-top: $spacing-small;
+    padding-top: $spacing-small;
+    background-color: $primaryback;
+    width: 70%;
+}
+
+.contpremium2 {
+    @extend .contpremium;
+    margin-bottom: $spacing-small;
+}
+
+.premiumbox {
+    text-align: start;
+    padding-left: $spacing-small;
+    padding-right: $spacing-small;
+
+    &__anuncio {
+        width: 80%;
+        border-radius: 30px;
+        background-color: $buttons;
+        font-size: $text-small;
+        font-family: $font-principal;
+        color: #ffffff;
+        display: inline-block;
+        text-align: center;
+    }
+
+    &__titulo {
+        font-size: $text-small;
+        font-family: $font-title;
+        margin-top: $spacing-xsmall;
+        margin-bottom: $spacing-xsmall;
+    }
+
+    &__texto {
+        font-size: $text-small;
+        font-family: $font-principal;
+        text-align: justify;
+        margin-bottom: $spacing-xsmall;
+    }
+
+    &__ul {
+        margin-top: $spacing-xsmall;
+        margin-bottom: $spacing-small;
+    }
+
+    &__li {
+        font-size: $text-small;
+        font-family: $font-principal;
+        text-align: justify;
+        margin-bottom: $spacing-xsmall;
+        padding-left: $spacing-xsmall;
+        padding-right: $spacing-xsmall;
+    }
+
+    &__button {
+        width: 60%;
+        height: 3rem;
+        border-radius: 13px;
+        font-size: $text-small;
+        font-family: $font-title;
+        background-color: #000;
+        color: #ffffff;
+        margin-left: 20%;
+        margin-bottom: $spacing-small;
+
+    }
+}

@@ -23,5 +23,9 @@
     $text-base: 1.6em;
     $text-small: 1.4em;
     $text-xsmall: 1em;
-    
+     /* Font-negrita */
+    .negrita {
+        font-size: $text-xsmall;
+        font-family: $font-title;
+    }
 

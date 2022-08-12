@@ -1,0 +1,67 @@
+
+.informacion {
+    &__titulo {
+        @extend .titulos;
+        margin-top: $spacing-small;
+    }
+
+    &__texto {
+        @extend .textos;
+        margin-top: $spacing-small;
+    }
+
+    &__boton {
+        text-align: center;
+        margin-top: $spacing-small;
+    }
+}
+.informacion2 {
+    background-color: $secondaryback;
+    padding-top: $spacing-small;
+
+    &__titulo2 {
+        @extend .titulos;
+        margin-bottom: $spacing-small;
+    }
+
+    &__texto2 {
+        @extend .textos;
+        color: #ffffff;
+        margin-bottom: $spacing-medium;
+    }
+
+}
+
+.informacion3 {
+    background-color: $primaryback;
+    padding-bottom: $spacing-small;
+    text-align: center;
+}
+
+.informacion4 {
+    @extend .informacion3;
+    background-color: $secondaryback;
+}
+
+.informacion5 {
+    @extend .informacion3;
+    background-color: #E2E2E2;
+    padding-top: $spacing-xsmall;
+}
+
+.informacion6 {
+    @extend .informacion4;
+    padding-inline: $spacing-small;
+    padding-top: $spacing-small;
+
+}
+
+.informacion7 {
+    @extend .informacion3;
+    padding-inline: $spacing-small;
+}
+.contenedortexto {
+    padding-left: $spacing-medium;
+    padding-right: $spacing-medium;
+}
+

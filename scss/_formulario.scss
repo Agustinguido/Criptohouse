@@ -1,0 +1,18 @@
+.formulariopremium__button {
+    width: 30%;
+    height: 3rem;
+    border-radius: 13px;
+    font-size: $text-small;
+    font-family: $font-title;
+    background-color: $buttons;
+    color: #ffffff;
+    margin-top: $spacing-small;
+    margin-left: $spacing-xsmall;
+}
+
+.label {
+    font-size: $text-small;
+    font-family: $font-principal;
+    margin-bottom: $spacing-small;
+    color: #ffffff;
+}

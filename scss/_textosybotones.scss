@@ -1,0 +1,68 @@
+.titulos {
+    font-family: $font-title;
+    color: $alternative;
+    text-align: center;
+    font-size: $text-medium;
+}
+
+.textos {
+    text-align: justify;
+    padding-inline: $spacing-medium;
+    font-size: $text-base;
+    font-family: $font-principal
+}
+
+.botones {
+    text-align: center;
+    margin-top: $spacing-small;
+}
+
+
+
+.informacion__titulo1b {
+    @extend .titulos;
+    padding-inline: $spacing-medium;
+    text-align: left;
+    margin-top: $spacing-small;
+}
+
+.informacion__titulo1c {
+    @extend .informacion__titulo1b;
+    padding: $spacing-small;
+}
+
+.informacion__titulo1d {
+    @extend .titulos;
+    margin-bottom: $spacing-small;
+    margin-top: $spacing-small;
+}
+
+.boton {
+    background-color: #03616D;
+    color: #ffffff;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 25px;
+    font-size: $text-base;
+    margin-bottom: $spacing-small;
+
+}
+.informacion__subtitulo {
+    font-family: $font-title;
+    color: $alternative;
+    text-align: start;
+    font-size: $text-small;
+    margin-top: $spacing-small;
+    padding-left: $spacing-small;
+}
+
+
+.informacion__boton2 {
+    text-align: center;
+}
+.footer__button{
+    font-size: $text-small;
+    font-family: $font-title;
+    color: $alternative;
+    
+}

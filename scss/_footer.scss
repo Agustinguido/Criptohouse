@@ -1,0 +1,38 @@
+.footer {
+    background-color: $alternative;
+    text-align: center;
+    padding-top: $spacing-small;
+    padding-bottom: $spacing-small;
+
+    &__titulo {
+        font-size: $spacing-medium;
+        margin-bottom: $spacing-xsmall;
+        font-family: $font-title;
+        color: $primaryback;
+    }
+
+    &__redes {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    &__li {
+        display: inline-block;
+        padding: 1rem;
+        font-size: $text-small;
+    }
+
+    &__button {
+        font-size: small;
+        color: #6A6A6A;
+    }
+
+    &__text {
+        font-family: $font-principal;
+        font-size: $text-small;
+        color: #ffffff;
+        margin: $spacing-xsmall;
+
+    }
+}

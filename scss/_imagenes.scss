@@ -1,0 +1,50 @@
+.imageneschicas {
+    text-align: center;
+}
+
+.imagenes {
+    width: 80%;
+}
+
+.imagenes2 {
+    width: 100%;
+
+}
+
+
+.contenedorimagen {
+    text-align: center;
+    margin-top: 3.5rem;
+}
+.imageneschicas {
+    padding-top: $spacing-small;
+
+    &__li {
+        display: inline-block;
+        padding: 0.5rem;
+
+    }
+
+    &__li2 {
+        display: inline-block;
+        padding-inline: 1.5rem;
+    }
+}
+
+.miniimg {
+    @extend .miniimg3;
+    margin-top: $spacing-xsmall;
+
+}
+
+.miniimg2 {
+    @extend .miniimg;
+    margin-bottom: $spacing-medium;
+
+}
+
+.miniimg3 {
+    width: 80px;
+    height: 80px;
+}
+

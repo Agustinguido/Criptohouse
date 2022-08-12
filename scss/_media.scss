@@ -1,0 +1,504 @@
+
+@media (min-width: 768px) {
+
+    .banner {
+        height: 30rem;
+    }
+
+    .banner2 {
+        height: 30rem;
+    }
+
+    .banner3 {
+
+        height: 30rem;
+
+    }
+
+    .banner4 {
+
+        height: 30rem;
+
+    }
+
+    .banner5 {
+
+        height: 27rem;
+
+        &__titulo {
+
+            font-size: $text-minlarge;
+            padding-top: $spacing-small;
+        }
+
+        &__texto {
+            font-size: $text-base;
+            text-align: center;
+            margin-bottom: $spacing-small;
+            margin-top: $spacing-small;
+        }
+
+        &__button {
+            font-size: $text-medium;
+            margin-top: $spacing-medium;
+        }
+
+    }
+
+
+    .informacion {
+        padding-inline: $spacing-large ;
+
+        &__titulo {
+            font-size: $text-minlarge;
+        }
+
+        &__texto {
+
+            font-size: $text-medium;
+        }
+    }
+
+    .informacion2 {
+        padding-inline: $spacing-large;
+
+        &__titulo2 {
+            font-size: $text-minlarge;
+        }
+
+        &__texto2 {
+            font-size: $text-medium;
+        }
+    }
+
+    .informacion3 {
+        padding-inline: $spacing-large
+    }
+
+    .informacion4 {
+        padding-inline: $spacing-large
+    }
+
+    .informacion6 {
+        padding-inline: $spacing-medium
+    }
+
+    .informacion7 {
+        padding-inline: $spacing-large
+    }
+
+
+    .informacion__titulo1 {
+        font-size: $text-minlarge;
+    }
+
+    .informacion__titulo1b {
+        font-size: $text-minlarge;
+    }
+
+    .informacion__titulo1c {
+        font-size: $text-minlarge;
+    }
+
+    .boton {
+        width: 15rem;
+        height: 4rem;
+    }
+
+    .imageneschicas {
+        text-align: center;
+    }
+
+    .informacion__subtitulo {
+        font-size: $text-medium;
+
+    }
+
+    .miniimg {
+        width: 110px;
+        height: 110px;
+    }
+
+    .miniimg2 {
+        width: 110px;
+        height: 110px;
+    }
+
+    .contpremium {
+
+        padding-inline: 3rem;
+    }
+
+    .contpremium2 {
+        padding-inline: 3rem;
+    }
+
+    .premiumbox {
+
+        &__anuncio {
+            font-size: $text-medium;
+            text-align: justify;
+            padding-left: $spacing-small;
+            width: 80%;
+        }
+
+        &__titulo {
+            font-size: $text-medium;
+            padding-left: $spacing-xsmall;
+        }
+
+        &__texto {
+            font-size: $text-medium;
+
+        }
+
+        &__ul {
+            margin-top: $spacing-small;
+        }
+
+        &__li {
+            font-size: $text-medium;
+
+        }
+
+    }
+
+    .formulariopremium__button {
+        font-size: $text-base;
+    }
+
+    .beneficiospremium {
+        justify-content: space-evenly;
+    }
+
+    .footer {
+        &__titulo {
+            font-size: $text-minlarge;
+        }
+
+        &__li {
+            display: inline-block;
+        }
+
+        &__button {
+            font-size: 1.7em;
+            color: #6A6A6A;
+        }
+
+        &__text {
+            font-size: $text-medium;
+        }
+
+        &__imput {
+            padding: 0.3rem;
+        }
+    }
+
+    .iconify {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (min-width: 992px) {
+    .banner {
+        height: 34rem;
+    }
+
+    .banner2 {
+        height: 34rem;
+    }
+
+    .banner3 {
+
+        height: 34rem;
+
+    }
+
+    .banner4 {
+
+        height: 34rem;
+
+    }
+
+    .banner5 {
+
+        height: 30rem;
+
+        &__texto {
+            font-size: $text-medium;
+       }
+       &__button { 
+        width: 30%;
+    }
+    }
+
+    .beneficiospremium__texto {
+        font-size: $text-small;
+
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .banner {
+        height: 42rem;
+    }
+
+    .banner2 {
+        height: 42rem;
+    }
+
+    .banner3 {
+
+        height: 42rem;
+
+    }
+
+    .banner4 {
+
+        height: 42rem;
+
+    }
+
+    .banner5 {
+
+        height: 30rem;
+
+    }
+
+    .principalescripto {
+        display: grid;
+        grid-template-columns: 3;
+        grid-template-rows: 4;
+        margin-top: $spacing-small;
+        justify-content: space-around;
+
+        &__bitcoin {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+
+        &__ethereum {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+
+        &__usdt {
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+
+        &__bnb {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+
+        &__polkadot {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 4;
+
+        }
+
+        &__cardano {
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+
+        &__texto {
+
+            text-align: center;
+            margin-top: $spacing-small;
+            font-size: $text-medium;
+            font-family: $font-title;
+            margin-bottom: 3rem;
+
+        }
+    
+
+    }
+
+    .informacion {
+        padding-inline: 18rem;
+    }
+
+    .informacion2 {
+        padding-inline: 18rem;
+    }
+
+    .informacion3 {
+        padding-inline: 18rem;
+    }
+
+    .informacion4 {
+        padding-inline: 18rem;
+    }
+
+    .informacion6 {
+        padding-inline: 18rem;
+    }
+
+    .informacion7 {
+        padding-inline: 18rem;
+    }
+
+    .imagenes {
+        width: 50%;
+    }
+
+    .imagenes2 {
+        width: 70%;
+        border-radius: 11%;
+    }
+    .premiumbox__anuncio{
+        width: 65%;
+    }
+
+}
+
+@media (min-width: 1400px) {
+    .banner {
+        height: 45rem;
+    }
+
+    .banner2 {
+        height: 45rem;
+    }
+
+    .banner3 {
+
+        height: 45rem;
+
+    }
+
+    .banner4 {
+
+        height: 45rem;
+
+    }
+
+    .banner5 {
+
+        height: 32rem;
+    }
+
+    .informacion {
+        padding-inline: 25rem;
+    }
+
+    .informacion2 {
+        padding-inline: 25rem;
+    }
+
+    .informacion3 {
+        padding-inline: 25rem;
+    }
+
+    .informacion4 {
+        padding-inline: 25rem;
+    }
+
+    .informacion6 {
+        padding-inline: 25rem;
+    }
+
+    .informacion7 {
+        padding-inline: 25rem;
+    }
+
+    .imagenes {
+        width: 40%;
+    }
+
+    .imagenes2 {
+        width: 50%;
+        border-radius: 11%;
+    }
+
+}
+
+@media (min-width: 1700px) {
+    .banner {
+        height: 55rem;
+    }
+
+    .banner2 {
+        height: 55rem;
+    }
+
+    .banner3 {
+
+        height: 55rem;
+
+    }
+
+    .banner4 {
+
+        height: 55rem;
+
+    }
+
+    .banner5 {
+
+        height: 32rem;
+    }
+.logo__img {
+    width: 100px;
+    height: 65px;
+    margin-left: 10px;
+}
+.premiumbox__anuncio{
+    width: 30%;
+}
+}
+
+@media (min-width: 1920px) {
+    .banner {
+        height: 60rem;
+    }
+
+    .banner2 {
+        height: 60rem;
+    }
+
+    .banner3 {
+
+        height: 60rem;
+
+    }
+
+    .banner4 {
+
+        height: 60rem;
+    }
+
+    .banner5 {
+
+        height: 32rem;
+    }
+
+    .contenedorprincipal {
+        max-width: 1920px;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+    .logo__img {
+        width: 120px;
+        height: 70px;
+        margin-left: 10px;
+    }
+
+}

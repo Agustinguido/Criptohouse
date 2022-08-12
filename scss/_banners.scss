@@ -1,0 +1,66 @@
+.banner {
+    width: 100%;
+    height: 22rem;
+    background-image: url(../Imagenes/banneriniciomobil.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner2 {
+    @extend .banner;
+    background-image: url(../Imagenes/walletmobilfondo.png);
+
+}
+
+.banner3 {
+    @extend .banner;
+    background-image: url(../Imagenes/fondonosotrosmobil.png);
+
+}
+
+.banner4 {
+    @extend .banner;
+    background-image: url(../Imagenes/informacionmobil.png);
+
+}
+
+.banner5 {
+    width: 100%;
+    height: 20rem;
+    background-color: $buttons;
+    text-align: center;
+
+    &__titulo {
+        font-family: $font-title;
+        color: $primaryback;
+        text-align: center;
+        padding-top: $spacing-xsmall;
+        font-size: $text-medium;
+    }
+
+    &__texto {
+        text-align: center;
+        padding-inline: $spacing-medium;
+        margin-top: $spacing-xsmall;
+        font-size: $text-base;
+        font-family: $font-principal;
+        color: $primaryback;
+    }
+
+    &__button {
+        width: 60%;
+        height: 3rem;
+        border-radius: 13px;
+        font-size: $text-small;
+        font-family: $font-title;
+        background-color: #000;
+        color: #ffffff;
+        margin-top: $spacing-xsmall;
+
+    }
+
+    &__li {
+        list-style-type: none;
+    }
+}
